@@ -1,7 +1,170 @@
-h1 {
-  color: red;
+body {
+  background-color: #d9faff;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  background-color: green;
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black !important;
+}
+
+a:visited {
+  color: inherit;
+}
+
+table {
+
+  border: 1px solid white;
+  margin: 0 auto;
+}
+td {
+    padding: 15px;
+    text-align: left;
+
+}
+
+#navbar li{
+
+    display: inline;
+    width: 60px;
+    padding: 20px;
+}
+
+#logos a {
+
+    color: white;
+    padding: 10px;
+
+}
+
+#navbar {
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font: font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+#logos li{
+  display: inline;
+  color: #00204a;
+}
+
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.header-pic {
+  width: 600px;
+  height: auto;
+  margin-top: 150px;
+  border-radius: 2px;
+
+}
+
+.img-circle {
+  width: 170px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px #005792;
+  position: relative;
+}
+
+.box {
+  background-color: #005792;
+  width: 600px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #005792;
+  text-align: center;
+}
+
+#header {
+  background-color: #00204a;
+  display: block;
+  justify-content: center;
+  padding: -40px;
+  box-shadow: 2px 2px 3px #00204a;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.book-cover {
+  width:  195px;
+  height: 250px
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+
+}
+.full-screen {
+  height:100vh;
+}
+
+.arrow-up {
+  color: #00204a;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
